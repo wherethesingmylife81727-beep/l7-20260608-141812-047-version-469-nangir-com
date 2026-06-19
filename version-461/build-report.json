@@ -1,0 +1,21 @@
+{
+    "movies": 2000,
+    "detail_pages": 2000,
+    "html_pages": 2017,
+    "analytics_missing": [],
+    "category_covered": true,
+    "category_counts": {
+        "精选片库": 200,
+        "热门片库": 200,
+        "高清剧场": 200,
+        "新片速递": 200,
+        "经典回看": 200,
+        "口碑佳作": 200,
+        "剧集专区": 200,
+        "电影专区": 200,
+        "专题片库": 200,
+        "综合片库": 200
+    },
+    "cover_images": 150,
+    "zip_path": "/mnt/data/static_movie_site.zip"
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>影片搜索 - 精选影视</title>
+  <meta name="description" content="搜索电影、电视剧、动画、纪录片等影视内容，按标题、地区、年份、类型快速查找。">
+  <meta name="keywords" content="影片搜索, 免费电影搜索, 在线电视剧搜索, 高清影视搜索">
+  <meta name="robots" content="index, follow">
+  <meta name="applicable-device" content="pc,mobile">
+  <meta property="og:title" content="影片搜索 - 精选影视">
+  <meta property="og:description" content="搜索电影、电视剧、动画、纪录片等影视内容，按标题、地区、年份、类型快速查找。">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="精选影视">
+        <span class="brand-icon">▶</span>
+        <span class="brand-text">
+          <strong>精选影视</strong>
+          <small>免费高清追剧平台</small>
+        </span>
+      </a>
+      <nav class="desktop-nav" aria-label="主导航">
+        <a href="index.html">首页</a>
+        <a href="movies.html">片库</a>
+        <a href="category-domestic.html">国产片</a>
+        <a href="category-rihan.html">日韩片</a>
+        <a href="category-oumei.html">欧美片</a>
+        <a href="ranking.html">排行榜</a>
+        <a href="search.html">搜索</a>
+      </nav>
+      <button class="menu-toggle" type="button" aria-label="打开导航" data-menu-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" aria-label="移动导航" data-mobile-nav>
+      <a href="index.html">首页</a>
+      <a href="movies.html">片库</a>
+      <a href="category-domestic.html">国产片</a>
+      <a href="category-rihan.html">日韩片</a>
+      <a href="category-oumei.html">欧美片</a>
+      <a href="category-other.html">其他片</a>
+      <a href="ranking.html">排行榜</a>
+      <a href="search.html">搜索</a>
+    </nav>
+  </header>
+  <main>
+    <section class="list-hero search-hero">
+      <div class="container">
+        <span class="eyebrow">Search</span>
+        <h1>影片搜索</h1>
+        <p>输入影片名、地区、年份、类型或标签，快速定位想看的内容。</p>
+        <form class="search-bar search-page-bar" action="search.html" method="get" data-search-form>
+          <input type="search" name="q" placeholder="输入关键词开始搜索" aria-label="影片搜索" data-search-input>
+          <button type="submit">搜索</button>
+        </form>
+      </div>
+    </section>
+    <section class="content-section">
+      <div class="container">
+        <div class="filter-row">
+          <button type="button" class="filter-chip is-active" data-filter="all">全部</button>
+          <button type="button" class="filter-chip" data-filter="domestic">国产片</button>
+          <button type="button" class="filter-chip" data-filter="rihan">日韩片</button>
+          <button type="button" class="filter-chip" data-filter="oumei">欧美片</button>
+          <button type="button" class="filter-chip" data-filter="other">其他片</button>
+        </div>
+        <div class="search-summary" data-search-summary>输入关键词后显示结果</div>
+        <div class="movie-grid" data-search-results></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-about">
+        <div class="footer-logo">精选影视</div>
+        <p>聚合热门电影、电视剧、动画、纪录片等多类型内容，提供清晰舒适的在线观影体验。</p>
+      </div>
+      <div>
+        <h3>快速导航</h3>
+        <a href="index.html">首页</a>
+        <a href="movies.html">全部片库</a>
+        <a href="ranking.html">热门排行榜</a>
+        <a href="search.html">影片搜索</a>
+      </div>
+      <div>
+        <h3>分类入口</h3>
+        <a href="category-domestic.html">国产片</a>
+        <a href="category-rihan.html">日韩片</a>
+        <a href="category-oumei.html">欧美片</a>
+        <a href="category-other.html">其他片</a>
+      </div>
+      <div>
+        <h3>服务信息</h3>
+        <a href="support.html">服务支持</a>
+        <a href="copyright.html">版权声明</a>
+        <a href="about.html">关于我们</a>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 精选影视 版权所有</div>
+  </footer>
+  <script src="assets/main.js"></script>
+  <script src="assets/search-data.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
